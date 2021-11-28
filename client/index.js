@@ -67,24 +67,6 @@ app.get('/connect', function(req, res) {
 
             res.json({session});
         })
-        /*
-        let socket = new WebSocket('ws://localhost:5532/');
-
-        socket.onopen = () => {
-            console.log('Socket was opened');
-            socket.send(JSON.stringify(message_to_b));
-        }
-
-        socket.onmessage = (event) => {
-            let message = JSON.parse(event.data);
-            let result = key.decrypt(message, 'utf8');
-            console.log(result);
-
-            session = result.session;
-
-            res.json({session});
-        }
-        */
     })
 });
 
