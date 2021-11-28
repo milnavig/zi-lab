@@ -1,0 +1,11 @@
+module.exports = {
+    private_key: `-----BEGIN RSA PRIVATE KEY-----
+    MIIBOwIBAAJBAKzURd4WsDlXacaJtPJ8Q0M2Ab9BX3wlSstq7B5Ao9jq4ElPdX25
+    VQ8IISgimxOSlkKxHep7ZC9HVnyTfdPN4usCAwEAAQJAQq1SlzAhpL24rUQLb1HJ
+    kXCQk/zgncC1bm090x4VGGZC5qjfnzWZeiXMQRbnX4T/tg6Pr8ke2cFCJOjRVUyb
+    gQIhANk4UwlrnZHzJP371bqEc7il4QDtOAqfGCbzlVZ0iYPbAiEAy68j96xR3PNQ
+    TQVOsetLbGJjmKb9dfcNkl+cxO+W0jECIDBD5Z94PADMB/IvXOQevh/PK9mq3ALw
+    Ksus4AffyRZ1AiEAxPb9khEKLN8BhSmfuv+tNQdEBqddLQkWD7jz8aE6uNECIQDJ
+    DhP3jdf8/qoG5Z3Vsxr8R4b+k9HKyv/c3SmNPboxiQ==
+    -----END RSA PRIVATE KEY-----`
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Auth page</title>
+        <style>
+            #auth-form {
+                display: none;
+            }
+            #auth-form input, #auth-form button {
+                display: block;
+                margin: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <button id="connect">Connect</button>
+            <div id="result-connect"></div>
+            <form id="auth-form">
+                <input type="text" id="username" name="text" />
+                <input type="password" id="password"/>
+                <button type="submit" id="submit">Send</button>
+            </form>
+            <div id="result"></div>
+        </div>
+        <div id="server-container">
+            
+        </div>
+        <div id="users-container">
+            
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
